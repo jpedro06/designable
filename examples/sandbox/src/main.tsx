@@ -364,9 +364,9 @@ const App = () => {
                   <Sandbox
                     jsAssets={[
                       'https://unpkg.com/moment/min/moment-with-locales.js',
-                      'https://unpkg.com/react/umd/react.production.min.js',
-                      'https://unpkg.com/react-dom/umd/react-dom.production.min.js',
-                      'https://unpkg.com/antd/dist/antd-with-locales.min.js',
+                      'https://unpkg.com/react@17.0.2/umd/react.production.min.js',
+                      'https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js',
+                      'https://unpkg.com/antd@4.24.0/dist/antd-with-locales.min.js',
                       './sandbox.bundle.js',
                     ]}
                   />
